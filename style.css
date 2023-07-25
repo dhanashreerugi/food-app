@@ -1,0 +1,157 @@
+body{
+    overflow-x: hidden;
+}
+.main-container{
+    height: 100vh;
+    width: 100vw;
+}
+
+.navbar-div1{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.navbar-socialMedia-div{
+    margin-left: 3rem;
+    font-size: 2rem;
+}
+
+.navbar-fa-truck{
+    font-size: 4rem;
+}
+
+.navbar-input-div{
+    margin-right: 3rem;
+}
+
+.navbar-input{
+    background-color:rgba(128, 128, 128, 0.178);
+   border: 0.5px;
+}
+
+.navbar-div2{
+    margin-top: 2rem;
+}
+
+.navbar-list-ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.5rem;
+}
+
+.navbar-list-li{
+    margin-right: 5rem;
+}
+
+.middle-content{
+    min-height: calc( 100vh - 44vh);
+}
+
+
+footer{
+    margin-top: 5rem;
+ }
+
+.footer-div1{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(128, 128, 128, 0.178);
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.footer-div1-innerDiv{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-right: 2rem;
+}
+
+.footer-subscribe-btn{
+    color: white;
+    background-color: rgb(190, 8, 8);
+}
+
+.footer-div2{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-div2-innerDiv{
+    text-align: center;
+    word-spacing: 1rem;
+}
+
+.footer-hr{
+    border: none;
+  height: 1px;
+  color: #333; 
+  background-color: #333;
+  width: 98vw;
+}
+
+.footer-copywrite{
+    margin-left: 2rem;
+}
+
+.padding-all{
+    padding: 2rem;
+}
+
+.padding-lower{
+   padding: 4rem 30rem 4rem 30rem;
+}
+
+p{
+    opacity: 0.5;
+    text-align: center;
+    line-height: 3rem;
+}
+
+.text-center{
+    color: red;
+}
+
+h1{
+    text-align: center;
+   font-weight: bolder;
+}
+
+h2{
+    text-align: center;
+   font-weight: bolder;
+}
+
+h4{
+    opacity: 0.8;
+    text-align: center;
+}
+
+.pasta-stories-main{
+    display: flex;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.row-no-padding {
+    [class*="col-"] {
+      padding-left: 0 !important;
+      padding-right: 0 !important;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
